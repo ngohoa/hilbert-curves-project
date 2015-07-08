@@ -1,0 +1,5 @@
+g++ -o query_processing_onethread query_processing_onethread.cpp -lrt -lm
+./query_processing_onethread
+
+g++ -pthread -o query_processing query_processing.cpp -lrt -lm
+./query_processing
